@@ -9,3 +9,19 @@ set mouse=a                 " Automatically enable mouse usage
 set mousehide               " Hide the mouse cursor while typing
 scriptencoding utf-8
 set nowrap
+set ignorecase
+set smartcase
+set hlsearch
+
+
+let g:netrw_preview=1
+let g:netrw_liststyle=3
+
+set grepprg=pss\ --go\ $*
+
+colo elflord
+map [[ ?{<CR>w99[{
+
+set tabstop=2
+set shiftwidth=2
+
